@@ -77,6 +77,7 @@ public class PostActivity extends AppCompatActivity {
 
             mProgress.show();
 
+
             StorageReference filepath = mStorage.child("Blog_Images").child(mImageUri.getLastPathSegment());
             filepath.putFile(mImageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
