@@ -6,6 +6,7 @@ package com.example.sanu.simpleblog;
 
 public class Blog {
 
+	//blog
     private String title,desc,image, username;
 
     public Blog(){
